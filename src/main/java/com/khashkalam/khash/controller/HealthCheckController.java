@@ -10,4 +10,8 @@ public class HealthCheckController {
     public String home(){
         return "Hello Khash Kalam";
     }
+    @RequestMapping("/health")
+    public String healthCheck(){
+        return "Hello Khash Kalam";
+    }
 }
